@@ -9,7 +9,9 @@ git clone from repo https://github.com/lizavetatkachuk/collective-crunch-test.gi
 Use npm to install dependencies
 npm i
 
-Install and configure Postgres, create a database called forest_db, change the dbConfig.ts file with corresponding values
+Install and configure Postgres, create a database called forest_db, change the db.config.ts file with corresponding values
+
+Create.env file in the root directory and specify the following values PORT (of the app, default - 8080), NODE_ENV (=development), DB_NAME (your db-name, e.g. 'forest_db')
 
 ## Usage
 

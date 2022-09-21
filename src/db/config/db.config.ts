@@ -7,6 +7,8 @@ export const dbConfig: {
   DIALECT: Dialect;
   DB: string;
   PORT: number;
+  DEFAULT_OFFSET: number;
+  DEFAULT_LIMIT: number;
   pool: {
     min: number;
     max: number;
@@ -20,6 +22,8 @@ export const dbConfig: {
   DB: "forest_db",
   PORT: 5432,
   DIALECT: "postgres",
+  DEFAULT_OFFSET: 0,
+  DEFAULT_LIMIT: 20,
   pool: {
     max: 5,
     min: 0,

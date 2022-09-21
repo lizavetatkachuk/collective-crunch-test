@@ -1,4 +1,4 @@
-export interface GetAllStandsFilters {
-  limit: number;
-  offset: number;
+export interface GetAllStandsFilter {
+  limit?: number;
+  offset?: number;
 }
